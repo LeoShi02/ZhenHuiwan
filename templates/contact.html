@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+{% block title %}
+    朕会玩旅游网-联系我们
+{% endblock %}
+{% block banner-text %}
+
+{% endblock %}
+{% block css %}
+    <link href="/static/css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+{% endblock %}
+{% block banner %}
+    {% include '_nav.html' %}
+{% endblock %}
+{% block main %}
+    <!--联系我们开始-->
+    <div class="contact-page">
+        <div class="container">
+            <h2 class="tittle-w3">联系我们</h2>
+            <div class="form-bg">
+                <form action="#" method="post">
+                    <div class="col-md-6 contact-fields">
+                        <input type="text" name="Name" placeholder="用户名" required="">
+                    </div>
+                    <div class="col-md-6 contact-fields">
+                        <input type="email" name="Email" placeholder="邮箱" required="">
+                    </div>
+                    <div class="contact-fields">
+                        <input type="text" name="Subject" placeholder="主题" required="">
+                    </div>
+                    <div class="contact-fields">
+                        <textarea name="Message" placeholder="信息" required=""></textarea>
+                    </div>
+                    <input type="submit" value="确认">
+                </form>
+            </div>
+
+            <!--地图开始-->
+            <div class="contact-maps">
+                <h3 class="tittle-w3">从地图上找到我们</h3>
+                <div id="horizontalTab">
+                    <ul class="resp-tabs-list">
+                        <li>
+                            地址 1
+                        </li>
+                        <li>
+                            地址 2
+                        </li>
+                        <li>
+                            地址 3
+                        </li>
+                        <li>
+                            地址 4
+                        </li>
+                    </ul>
+                    <div class="resp-tabs-container">
+                        <div class="tab1">
+                            <div class="col-md-5 add-left">
+                                <p class="para-w3l">
+                                    <span>地址 : </span>北京市-朝阳区-天居园-3号楼</p>
+                                <p class="para-w3l">
+                                    <span>电话 : </span>000-568-3214</p>
+                                <p class="para-w3l">
+                                    <span>邮箱 : </span>
+                                    <a href="mailto:info@example.com">info@example1.com</a>
+                                </p>
+                            </div>
+                            <div class="col-md-7 add-right">
+                                <iframe src="https://map.baidu.com/search/%E5%A4%A9%E5%B1%85%E5%9B%AD-3%E5%8F%B7%E6%A5%BC/@12959916.175,4844808.63,19z?querytype=s&da_src=shareurl&wd=%E5%A4%A9%E5%B1%85%E5%9B%AD-3%E5%8F%B7%E6%A5%BC&c=131&src=0&wd2=%E5%8C%97%E4%BA%AC%E5%B8%82%E6%9C%9D%E9%98%B3%E5%8C%BA&pn=0&sug=1&l=13&b=(12934095,4829434;12980175,4851258)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&sug_forward=e678cb6a5e55f2c3220220e3&device_ratio=2"></iframe>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="tab2">
+                            <div class="col-md-5 add-left">
+                                <p class="para-w3l">
+                                    <span>地址 : </span>北京市-朝阳区-天居园-3号楼</p>
+                                <p class="para-w3l">
+                                    <span>电话 : </span>000-568-3214</p>
+                                <p class="para-w3l">
+                                    <span>邮箱 : </span>
+                                    <a href="mailto:info@example.com">info@example1.com</a>
+                                </p>
+                            </div>
+                            <div class="col-md-7 add-right">
+                                <iframe src="https://map.baidu.com/search/%E5%A4%A9%E5%B1%85%E5%9B%AD-3%E5%8F%B7%E6%A5%BC/@12959916.175,4844808.63,19z?querytype=s&da_src=shareurl&wd=%E5%A4%A9%E5%B1%85%E5%9B%AD-3%E5%8F%B7%E6%A5%BC&c=131&src=0&wd2=%E5%8C%97%E4%BA%AC%E5%B8%82%E6%9C%9D%E9%98%B3%E5%8C%BA&pn=0&sug=1&l=13&b=(12934095,4829434;12980175,4851258)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&sug_forward=e678cb6a5e55f2c3220220e3&device_ratio=2"></iframe>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="tab3">
+                            <div class="col-md-5 add-left">
+                                <p class="para-w3l">
+                                    <span>地址 : </span>北京市-朝阳区-天居园-3号楼</p>
+                                <p class="para-w3l">
+                                    <span>电话 : </span>000-568-3214</p>
+                                <p class="para-w3l">
+                                    <span>邮箱 : </span>
+                                    <a href="mailto:info@example.com">info@example1.com</a>
+                                </p>
+                            </div>
+                            <div class="col-md-7 add-right">
+                                <iframe src="https://map.baidu.com/search/%E5%A4%A9%E5%B1%85%E5%9B%AD-3%E5%8F%B7%E6%A5%BC/@12959916.175,4844808.63,19z?querytype=s&da_src=shareurl&wd=%E5%A4%A9%E5%B1%85%E5%9B%AD-3%E5%8F%B7%E6%A5%BC&c=131&src=0&wd2=%E5%8C%97%E4%BA%AC%E5%B8%82%E6%9C%9D%E9%98%B3%E5%8C%BA&pn=0&sug=1&l=13&b=(12934095,4829434;12980175,4851258)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&sug_forward=e678cb6a5e55f2c3220220e3&device_ratio=2"></iframe>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="tab4">
+                            <div class="col-md-5 add-left">
+                                <p class="para-w3l">
+                                    <span>地址 : </span>北京市-朝阳区-天居园-3号楼</p>
+                                <p class="para-w3l">
+                                    <span>电话 : </span>000-568-3214</p>
+                                <p class="para-w3l">
+                                    <span>邮箱 : </span>
+                                    <a href="mailto:info@example.com">info@example1.com</a>
+                                </p>
+                            </div>
+                            <div class="col-md-7 add-right">
+                                <iframe src="https://map.baidu.com/search/%E5%A4%A9%E5%B1%85%E5%9B%AD-3%E5%8F%B7%E6%A5%BC/@12959916.175,4844808.63,19z?querytype=s&da_src=shareurl&wd=%E5%A4%A9%E5%B1%85%E5%9B%AD-3%E5%8F%B7%E6%A5%BC&c=131&src=0&wd2=%E5%8C%97%E4%BA%AC%E5%B8%82%E6%9C%9D%E9%98%B3%E5%8C%BA&pn=0&sug=1&l=13&b=(12934095,4829434;12980175,4851258)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&sug_forward=e678cb6a5e55f2c3220220e3&device_ratio=2"></iframe>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--地图结束-->
+
+        </div>
+    </div>
+    <!--联系我们结束-->
+{% endblock %}
+{% block js %}
+    <script src="/static/js/easy-responsive-tabs.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#horizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion
+                width: 'auto', //auto or any width like 600px
+                fit: true, // 100% fit in a container
+                closed: 'accordion', // Start closed if in accordion view
+                activate: function (event) { // Callback function if tab is switched
+                    var $tab = $(this);
+                    var $info = $('#tabInfo');
+                    var $name = $('span', $info);
+                    $name.text($tab.text());
+                    $info.show();
+                }
+            });
+            $('#verticalTab').easyResponsiveTabs({
+                type: 'vertical',
+                width: 'auto',
+                fit: true
+            });
+        });
+    </script>
+{% endblock %}
